@@ -1,0 +1,10 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+font-family:"DFXingShuMedium1B";
+src:url("DFXSM1B.eot?") format("eot"),
+url("DFXSM1B.woff") format("woff"),
+url("DFXSM1B.ttf") format("truetype"),
+url("DFXSM1B.svg#DFXingShuMedium1B") format("svg");
+font-weight:normal;
+font-style:normal;
+}
