@@ -857,7 +857,9 @@ ul, ol, dd {
 /*------------------------------------*    $MAIN
 \*------------------------------------*/
 html {
-  font: 1em/1.5 "Cabin", Arial, Helvetica, sans-serif;
+  font: 1em/1.5 "Microsoft Yahei","Cabin", Arial, Helvetica, sans-serif;
+    font-family: "Microsoft Yahei" !important;
+
   min-height: 100%; }
 
 /*------------------------------------*    $HEADINGS
@@ -11815,3 +11817,6 @@ html, body, body > .page {
   top: 10% !important; }
 
 /*# sourceMappingURL=style.css.map */
+.cn-font h4,.cn-font h1,.cn-font h2,.cn-font h3,.cn-font h5,.cn-font h6,.cn-font ul li,.cn-font a,.cn-font span,.cn-font{
+    font-family:"Microsoft Yahei" !important;
+}

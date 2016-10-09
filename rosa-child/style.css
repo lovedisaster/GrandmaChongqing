@@ -20,18 +20,31 @@ specifically the 'Template: rosa' line. */
 
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
 @font-face {
-font-family:"DFXingShuMedium1B";
-src:url("./assets/fonts/chinesefonts/DFXSM1B.eot?") format("eot"),
-url("./assets/fonts/chinesefonts/DFXSM1B.woff") format("woff"),
-url("./assets/fonts/chinesefonts/DFXSM1B.ttf") format("truetype"),
-url("./assets/fonts/chinesefonts/DFXSM1B.svg#DFXingShuMedium1B") format("svg");
-font-weight:normal;
-font-style:normal;
+    font-family:"DFXingShuMedium1B";
+    src:url("./assets/fonts/chinesefonts/DFXSM1B.eot?") format("eot"),
+    url("./assets/fonts/chinesefonts/DFXSM1B.woff") format("woff"),
+    url("./assets/fonts/chinesefonts/DFXSM1B.ttf") format("truetype"),
+    url("./assets/fonts/chinesefonts/DFXSM1B.svg#DFXingShuMedium1B") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+.cn-font{
+    font-family:"Microsoft Yahei" !important;
+}
+.footer-widget-area h1,.footer-widget-area h2,.footer-widget-area h3,.footer-widget-area h4,.footer-widget-area h5,{
+    font-family:"Microsoft Yahei" !important;
+}
+.navigation a{
+    font-family:"Microsoft Yahei" !important;
+    font-size:15px !important;
+}
+h1.headline__primary{
+    font-family: "Microsoft Yahei";
 }
 
-h1.headline__primary{
-    
-    font-family:"DFXingShuMedium1B";
+
+ul.menu-main-menu li a{
+    font-family:"Microsoft Yahei" !important;
 }
 
 .map__marker{
@@ -44,4 +57,10 @@ h1.headline__primary{
     position: absolute;
     top: 4px;
     left: 26px;
+}
+.mgb10{
+    margin-bottom:10px !important;
+}
+.mgt0{
+    margin-top:0px !important;
 }
